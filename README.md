@@ -1,5 +1,7 @@
 # HandTrackingModule
-Project Overview
+
+**Project Overview**
+
 
 This project implements a real-time hand tracking module using Python, OpenCV, and MediaPipe. The system detects hands from a webcam feed and tracks 21 hand landmarks provided by MediaPipe. These landmarks allow us to determine the position of each finger joint and build gesture-based applications.
 
@@ -17,7 +19,7 @@ AR/VR interaction
 
 AI desktop assistants
 
-Technologies and Libraries Used
+**Technologies and Libraries Used**
 1️ Python
 
 Python is used as the main programming language because of its simplicity and strong ecosystem for machine learning and computer vision.
@@ -62,7 +64,9 @@ This allows accurate real-time hand tracking with very low latency.
 
 The time module is used to calculate FPS (Frames Per Second) so that we can monitor the performance of the real-time system.
 
- How the System Works (Step-by-Step)
+
+**How the System Works (Step-by-Step)**
+
 Step 1 — Capture Webcam Video
 
 The webcam feed is captured using OpenCV.
@@ -105,7 +109,8 @@ They are converted to pixel positions:
 cx = int(lm.x * w)
 cy = int(lm.y * h)
 
-These coordinates allow further analysis such as:
+**These coordinates allow further analysis such as:**
+
 
 Finger detection
 
@@ -128,7 +133,8 @@ Download Python from:
 
 https://python.org
 
-Check installation:
+
+**Check installation:**
 
 python --version
 Step 2 — Install VS Code
@@ -165,7 +171,9 @@ After activation, the terminal will show:
 (myenv)
 Step 6 — Install Required Libraries
 
-Install OpenCV and MediaPipe:
+
+**Install OpenCV and MediaPipe:**
+
 
 pip install opencv-python
 pip install mediapipe
@@ -183,7 +191,8 @@ The webcam window will open and start tracking hands in real time.
 
 Press Q to exit the program.
 
- Output
+
+**Output**
 
 The program will:
 
@@ -197,7 +206,8 @@ Print landmark coordinates
 
 Display FPS on screen
 
- Future Improvements
+
+**Future Improvements**
 
 This module can be extended to build advanced projects such as:
 
@@ -211,7 +221,9 @@ AR/VR hand interaction
 
 Touchless UI systems
 
- References
+
+**References**
+
 
 MediaPipe Documentation
 https://developers.google.com/mediapipe
@@ -219,7 +231,9 @@ https://developers.google.com/mediapipe
 OpenCV Documentation
 https://opencv.org
 
- Author
+
+ **Author**
+
 
 Ankit Kumar Jha
 
